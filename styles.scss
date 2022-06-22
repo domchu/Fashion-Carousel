@@ -8,3 +8,30 @@
   box-sizing: border-box;
   font-family: "lato" sans-serif;
 }
+body {
+  background-color: lightgrey;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  .slider-img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding: 30px;
+    height: auto;
+  }
+  .slider-container {
+    display: flex;
+    box-sizing: content-box;
+    width: 1080px;
+    overflow: hidden;
+  }
+}
