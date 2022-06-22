@@ -24,14 +24,38 @@ body {
   .slider {
     display: flex;
     flex-direction: column;
-    width: 360px;
-    padding: 30px;
+    width: 430px;
+    padding: 20px;
     height: auto;
+    // padding: 30px;
   }
   .slider-container {
     display: flex;
     box-sizing: content-box;
-    width: 1080px;
+    width: 1300px;
     overflow: hidden;
+  }
+  .slider-button {
+    width: auto;
+    // padding: 50px;
+  }
+
+  .left,
+  .right {
+    position: absolute;
+    color: #2965a0e2;
+    font-size: 45px;
+    top: 45%;
+    font-size: 25px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .left {
+    left: 0;
+    margin-left: 3rem;
+  }
+  .right {
+    margin-right: 3rem;
+    right: 0;
   }
 }
