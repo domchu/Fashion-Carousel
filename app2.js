@@ -1,73 +1,73 @@
 const sliderImages = [
   {
     photo: "./images/f1.jpg",
-    name: "Model1",
+    name: "Canvas",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f2.jpg",
-    name: "Model1",
+    name: "Overall",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f3.jpg",
-    name: "Model1",
+    name: "Top-Shirt",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f4.jpg",
-    name: "Model1",
+    name: "Black-Bag",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f5.jpg",
-    name: "Model1",
+    name: "Brown-Bag",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f6.jpg",
-    name: "Model1",
+    name: "Jump-Suit",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f7.jpg",
-    name: "Model1",
+    name: "Gown",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f8.jpg",
-    name: "Model1",
+    name: "Corperate-Suit",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f9.jpg",
-    name: "Model1",
+    name: "Short",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f10.jpg",
-    name: "Model1",
+    name: "Black-Suit",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f11.jpg",
-    name: "Model1",
+    name: "Winter-Wear",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },
   {
     photo: "./images/f12.jpg",
-    name: "Model1",
+    name: "Wrist-Watch",
     description:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, corporis.",
   },

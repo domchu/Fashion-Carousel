@@ -1,6 +1,5 @@
 import sliderImages from "./app2.js";
 
-console.log(sliderImages);
 const mappedItem = sliderImages.map((el) => {
   return `        <div class="slider">
     <img src="${el.photo}" class="slider-img" />
@@ -16,6 +15,7 @@ const mappedItem = sliderImages.map((el) => {
 let slideContainer = document.querySelector(".slider-container");
 slideContainer.innerHTML = mappedItem.join(" ");
 
+// the slider position
 let sliders = document.querySelectorAll(".slider");
 let leftBtn = document.querySelector(".left");
 let rightBtn = document.querySelector(".right");
@@ -26,7 +26,6 @@ let currentPosition = 0;
 leftBtn.addEventListener("click", () => {
   if (currentPosition == 0) {
     currentPosition = 3;
-    // console.log(currentPosition);
   }
   currentPosition -= 1;
 
