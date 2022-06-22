@@ -80,11 +80,11 @@ body {
 
 .page-container .left {
   left: 0;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .page-container .right {
-  margin-right: 3rem;
+  margin-right: 2rem;
   right: 0;
 }
 
@@ -96,5 +96,26 @@ body {
 .page-container .right:hover {
   background-color: #000;
   color: #fff;
+}
+
+.page-container .name-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0.5rem 0;
+}
+
+.page-container h3 {
+  color: #df0b0b;
+}
+
+.page-container h4 {
+  font-size: 1.5rem;
+}
+
+.page-container p {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */

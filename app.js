@@ -6,7 +6,7 @@ const mappedItem = sliderImages.map((el) => {
     <div class="caption">
     <div class="name-price">
     <h4>${el.name}</h4>
-    <h4>${el.price}</h4>
+    <h3>${el.price}</h3>
     </div>
       <p>
        ${el.description}

@@ -59,10 +59,10 @@ body {
   }
   .left {
     left: 0;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .right {
-    margin-right: 3rem;
+    margin-right: 2rem;
     right: 0;
   }
   .left:hover {
@@ -72,5 +72,19 @@ body {
   .right:hover {
     background-color: #000;
     color: #fff;
+  }
+  .name-price {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem 0;
+  }
+  h3 {
+    color: #df0b0b;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  p {
+    margin-left: 1rem;
   }
 }
