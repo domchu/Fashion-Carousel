@@ -30,6 +30,7 @@ body {
     // padding: 30px;
   }
   .slider-container {
+    position: relative;
     display: flex;
     box-sizing: content-box;
     width: 1300px;
@@ -45,13 +46,15 @@ body {
     font-size: 45px;
     top: 45%;
     font-size: 25px;
+    z-index: 30;
     padding: 4px;
     cursor: pointer;
     transition: 1s;
     border: none;
     border-radius: 5px;
     background: #2997b3;
-    box-shadow: 3px 3px 1px #227f96, -3px -3px 1px #30afd0;
+    box-shadow: 0 35px 68px 0 rgba(100, 144, 240, 0.42),
+      inset 0 -8px 50px 0 #2997b3;
   }
   .left {
     left: 0;
