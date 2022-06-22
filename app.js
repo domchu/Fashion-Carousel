@@ -34,3 +34,24 @@ rightBtn.addEventListener("click", () => {
     }
   }
 });
+
+// the slider functionality
+function activateSlider() {
+  if (currentPosition > sliders.length - 1) {
+    rightBtn.style.opacity = "0.4";
+    rightBtn.style.cursor = "default";
+  } else {
+    rightBtn.style.opacity = "1";
+    rightBtn.style.cursor = "pointer";
+    currentPosition += 1;
+    if (currentPosition > sliders.length - 3) {
+      currentPosition = 0;
+    }
+    for (let index = 0; index < sliders.length; index++) {
+      sliders[index].style.transform = `translate(-${currentPosition}00%)`;
+    }
+  }
+}
+setInterval(() => {
+  activateSlider();
+}, 4000);
