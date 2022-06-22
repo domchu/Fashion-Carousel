@@ -4,7 +4,10 @@ const mappedItem = sliderImages.map((el) => {
   return `        <div class="slider">
     <img src="${el.photo}" class="slider-img" />
     <div class="caption">
-      <h4>${el.name}</h4>
+    <div class="name-price">
+    <h4>${el.name}</h4>
+    <h4>${el.price}</h4>
+    </div>
       <p>
        ${el.description}
       </p>
