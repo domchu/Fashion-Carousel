@@ -60,12 +60,18 @@ body {
 .page-container .left,
 .page-container .right {
   position: absolute;
-  color: #2965a0e2;
   font-size: 45px;
   top: 45%;
   font-size: 25px;
-  padding: 2px;
+  padding: 4px;
   cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: none;
+  border-radius: 5px;
+  background: #2997b3;
+  -webkit-box-shadow: 3px 3px 1px #227f96, -3px -3px 1px #30afd0;
+          box-shadow: 3px 3px 1px #227f96, -3px -3px 1px #30afd0;
 }
 
 .page-container .left {
@@ -76,5 +82,15 @@ body {
 .page-container .right {
   margin-right: 3rem;
   right: 0;
+}
+
+.page-container .left:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.page-container .right:hover {
+  background-color: #000;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
