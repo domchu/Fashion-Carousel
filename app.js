@@ -1,3 +1,21 @@
+import sliderImages from "./app2.js";
+
+console.log(sliderImages);
+const mappedItem = sliderImages.map((el) => {
+  return `        <div class="slider">
+    <img src="${el.photo}" class="slider-img" />
+    <div class="caption">
+      <h4>${el.name}</h4>
+      <p>
+       ${el.description}
+      </p>
+    </div>
+  </div>`;
+});
+
+let slideContainer = document.querySelector(".slider-container");
+slideContainer.innerHTML = mappedItem.join(" ");
+
 let sliders = document.querySelectorAll(".slider");
 let leftBtn = document.querySelector(".left");
 let rightBtn = document.querySelector(".right");
@@ -52,6 +70,7 @@ function activateSlider() {
     }
   }
 }
+// the time interval
 setInterval(() => {
   activateSlider();
 }, 4000);

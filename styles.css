@@ -41,6 +41,8 @@ body {
   width: 430px;
   padding: 20px;
   height: auto;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .page-container .slider-container {
